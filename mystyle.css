@@ -9,7 +9,9 @@ body {
     align-items: center;
     box-sizing: border-box;
 }
-
+.logo{
+    padding: 20px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,14 +20,18 @@ body {
     padding: 20px;
     background-color: #000;
     position: sticky;
+    top: 0;
+     animation: logo-color-animation 5s infinite; 
+
+    
 }
 
 .navbar .logo {
     display: flex;
     align-items: center;
-    color: #fff;
     font-weight: bold;
     font-size: 1.5em;
+    animation: logo-color-animation 8s infinite; 
 }
 
 .navbar ul {
@@ -33,12 +39,18 @@ body {
     display: flex;
     gap: 20px;
     margin: 0;
+    margin: 20px;
+        animation: logo-color-animation 8s infinite; 
+
 }
 
 .navbar a {
-    color: #fff;
+
     text-decoration: none;
     font-weight: 700;
+    margin: 20px;
+    animation: logo-color-animation 8s infinite; 
+
 }
 
 .section {
@@ -84,3 +96,115 @@ body {
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes logo-color-animation {
+    12.5% {
+        color: rgb(196, 73, 245); 
+    }
+    25% {
+        color: skyblue; 
+    }
+    37.5% {
+        color: rgb(85, 114, 212); 
+    }
+    50% {
+        color: rgb(99, 200, 156); 
+    }
+    62.5% {
+        color: rgb(240, 200, 130); 
+    }
+    75% {
+        color: rgb(248, 119, 59); 
+    }
+    87.5% {
+        color: rgb(245, 55, 55); 
+    }
+    100% {
+        color: rgb(250, 101, 218); 
+    }
+    87.5% {
+        color: rgb(245, 55, 55); 
+    }
+75% {
+        color: rgb(248, 119, 59); 
+    }
+  62.5% {
+        color: rgb(240, 200, 130); 
+    }
+      50% {
+        color: rgb(99, 200, 156); 
+    }
+   37.5% {
+        color: rgb(85, 114, 212); 
+    }
+    25% {
+        color: skyblue; 
+    }
+ 
+
+}
+
+  
+  
+    
+
+   
