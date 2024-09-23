@@ -13,6 +13,7 @@ background-repeat: repeat-x;
 }
 .logo{
     padding: 20px;
+    margin-left: 5%;
 }
 .navbar {
     display: flex;
@@ -27,7 +28,11 @@ background-repeat: repeat-x;
 
     
 }
-
+.navbox {
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 5px;
+}
 .navbar .logo {
     display: flex;
     align-items: center;
