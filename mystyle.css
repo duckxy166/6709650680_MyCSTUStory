@@ -89,7 +89,7 @@ background-repeat: repeat-x;
 .main-image {
     flex: 1;
     width: 100%;
-    background-image: url('resources/phonepicutres-TA.webp'); 
+    background-image: url('resources/phonepicutres-TA.webp');
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
