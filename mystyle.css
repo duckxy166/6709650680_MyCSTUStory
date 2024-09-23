@@ -1,34 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-
-
-
-* {
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
-}
-body {
-    background-color: cadetblue;
-    font-family: "EB Garamond", serif;
-
 }
 
 .navbar {
-    background-color: black;
-    color: rgb(255, 255, 255);
-   width: 100%;
-   position: sticky;
-   top 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    position: sticky;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 50px 20px;
+    max-width: 1200px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+.main-image {
+    flex: 1;
+    background-color: #000;
+    width: 100%;
+    background-image: url(''); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 20px;
 }
 
 .footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
     text-align: center;
-    background-color: black;
-    color: #ffffff;
-    width: 100%;
-}
-
-section {
-    background-color: beige;
-    width: 100%;
 }
