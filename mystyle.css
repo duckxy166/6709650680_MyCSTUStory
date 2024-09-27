@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     background-image: url('resources/giphy.webp'); 
 background-position: 100%;
-
+position: relative;
 }
 .logo{
     padding: 20px;
@@ -25,6 +25,7 @@ background-position: 100%;
     position: sticky;
     top: 0;
      animation: logo-color-animation 5s infinite; 
+     z-index: 1000;
 
     
 }
@@ -84,15 +85,58 @@ background-position: 100%;
     margin: 20px 0;
     font-size: 1em;
 }
+.main-image-box { 
+    border: 3px solid #000000; 
+    padding: 10px;            
+    margin: 10px 0;         
+    border-radius: 8px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(249, 249, 249, 0.7);
+    max-width: 500px;
+}
 
 .main-image {
 
-    width: 600px;
+    width: 500px;
     background-image: url('resources/IMG_9409.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
+    
 }
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.article{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.video-box {
+    border: 3px solid #000000; 
+    padding: 10px;            
+    margin: 10px 0;         
+    border-radius: 8px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(249, 249, 249, 0.7);
+    max-width: 500px;
+}
+
+
+
+
+
 
 .footer {
 
