@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     background-image: url('resources/giphy.webp'); 
 background-position: 100%;
-background-repeat: repeat-x;
+
 }
 .logo{
     padding: 20px;
@@ -63,16 +63,15 @@ background-repeat: repeat-x;
 .section {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: left;
+    text-align: center;
     margin: 50px 20px;
     max-width: 1200px;
-    
+
 }
 
 .content {
     flex: 1;
-   margin: 20px;
+  
 }
 
 .content h1 {
@@ -87,21 +86,23 @@ background-repeat: repeat-x;
 }
 
 .main-image {
-    flex: 1;
-    width: 100%;
-    background-image: url('resources/phonepicutres-TA.webp');
+
+    width: 600px;
+    background-image: url('resources/IMG_9409.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
-    margin-left: 20px;
 }
 
 .footer {
-    padding: 20px;
+
+    padding:30px;
     background-color: #000;
     color: #fff;
     width: 100%;
     text-align: center;
+    position: relative;
+    
 }
 
 
