@@ -51,7 +51,7 @@ a:link, a:visited {
      padding:30px;
      background-color: #000;
      width: 100%;
-  position: relative;
+  position: sticky;
    height: 60px;
 
     
@@ -108,7 +108,6 @@ a:link, a:visited {
     margin: 20px ;
 }
 .main-image-box { 
-    border: 3px solid #000000; 
     padding: 10px;            
     margin: 10px 0;         
     border-radius: 8px;      
@@ -118,6 +117,10 @@ a:link, a:visited {
 
 }
 
+.main-image-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
 .main-image {
 
     width: 500px;
@@ -125,6 +128,7 @@ a:link, a:visited {
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
+    border-radius: 16px;
 }
 
 .journey-image {
@@ -175,6 +179,33 @@ a:link, a:visited {
     padding: 5px ;
   }
 
+  .year2-image {
+    background-image: url('resources/code-1084923_960_720.webp');
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 16px;
+  }
+
+  .year3-image {
+    background-image: url('resources/INTERn.png');
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 16px;
+  }
+
+  .year4-image {
+    background-image: url('resources/AIT.png');
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 16px;
+  }
+
 h1 ,h3 {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
@@ -209,7 +240,6 @@ p {
 
 
 .video-box {
-    border: 3px solid #000000; 
     padding: 10px;            
     margin: 30px ;         
     border-radius: 8px;      
@@ -221,7 +251,9 @@ p {
 }
 
 
-
+.video-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
 
 
